@@ -1,0 +1,113 @@
+	
+	body{
+		max-width: 100%;
+		max-height: 100%;
+		background-color: #45a3e5;
+		font-family: montserrat,"helvetica neue",helvetica,arial,sans-serif;
+	}
+	
+	.content-wrapper{
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+	}	
+	
+	.content{
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	
+	.header{
+		display: inline-block;
+	}
+	
+	h1, h3{
+		font-weight: 700;
+	}
+	
+	h1{
+		font-size: 36px;
+		color: #fff;
+	}
+	
+	.header p{
+		font-size: 21px;
+		font-weight: 500;
+		word-wrap: break-word;
+		width: 750px;
+		margin-top: -20px;
+		color: #222;
+	}
+	
+	h3{
+		font-size: 21px;
+		display: inline;
+		margin:100px;
+	}
+	
+	#calc-form {
+		margin-top: 10px;
+	}
+	.ui-button {
+		height: 50px;
+		width: 350px;
+		top: 10px;
+		background: #333;
+		border: 1px solid #333;
+		font-weight: 900;
+		font-size: 20px;
+	}
+	.submit {
+		background: #333;
+	}
+	.ui-button:hover,
+	.ui-button:focus {
+		font-weight: 900;
+		background: #444;
+		border: 0px;
+	}
+	input{
+		height: 50px;
+		width: 350px;
+		text-align:center;
+		padding: 0px;
+		border: 0px;
+		margin-top: 20px;
+		background-color: #fff;
+		font-weight: 900;
+		font-size: 20px;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	input:focus {
+		border: 2px solid black;
+	}
+	
+	fieldset{
+		border: 0px;
+		padding: 0px;
+		margin-top: -10px;
+	}
+	
+	fieldset input{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	
+	fieldset button{
+		margin-top: 10px;
+		margin-left: 5px;
+		margin-right: -5px;
+	}
+	
+	
+	input.error {
+		border: 2px solid red;
+	}
+	/*input.valid {
+		border: 2px solid green;
+	}*/
