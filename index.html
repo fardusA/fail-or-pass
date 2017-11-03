@@ -1,0 +1,63 @@
+<!doctype html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--jquery/jquery ui/jquery validate scripts-->
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.js"></script>
+		
+		<!--jquery ui and main style sheets-->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/> 
+		<link rel="stylesheet"href="css/main.css"/> 
+		
+		<!--fail or pass script-->
+		<script src="js/failPass.js"></script>
+	</head>
+	<body>
+		<div class="content-wrapper">
+			<div class="content">
+				<div class="header">
+					<h1> Fail or Pass?</h1>
+					<p> Calculate your module, assessment and degree classification average below</p>
+				</div>
+				<form id="calc-form" action="" method="">
+					<div class="column-header">
+						<h3>Enter Mark</h3>
+						<h3>Enter Percentage</h3>
+					</div>
+					<fieldset>
+						<input type="text" name="mark" class="number mark" placeholder="0-100">
+						<input type="text" name="weight" class="number weight" placeholder="%">
+					</fieldset>
+					<fieldset>
+						<input type="text" name="mark2" class="number mark" placeholder="0-100">
+						<input type="text" name="weight2" class="number weight" placeholder="%">
+					</fieldset>
+					<fieldset>
+						<input type="text" name="mark3" class="number mark" placeholder="0-100">
+						<input type="text" name="weight3" class="number weight" placeholder="%">
+					</fieldset>
+					<fieldset>
+						<input type="text" name="mark4" class="number mark" placeholder="0-100">
+						<input type="text" name="weight4" class="number weight" placeholder="%">
+					</fieldset>
+					<fieldset>
+						<input type="text" name="mark5" class="number mark" placeholder="0-100">
+						<input type="text" name="weight5" class="number weight" placeholder="%">
+					</fieldset>
+					<fieldset>
+						<input type="text" name="mark6" class="number mark" placeholder="0-100">
+						<input type="text" name="weight6" class="number weight" placeholder="%">
+					</fieldset>
+					<fieldset id="buttons">
+						<button class="ui-button add">Add another Mark</button>
+						<button type="submit" class="ui-button submit">Calculate Grade</button>
+					</fieldset>
+				</form>
+			</div> <!--end of content-->
+		</div>  <!--end of content wrapper-->
+	</body>
+</html>
