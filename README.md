@@ -1,2 +1,2 @@
 # fail-or-pass
-A grade calculator using Jquery/ Jquery UI
+A grade calculator using Jquery/ Javascript validator
